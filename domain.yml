@@ -1,0 +1,47 @@
+actions:
+- action_weather
+- utter_ask_location
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+entities:
+- goodbye
+- location
+intents:
+- goodbye
+- greet
+- inform
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+responses:
+  utter_ask_location:
+  - text: text:"In what location?"
+  - text: text:"What is your location?"
+  - text: text:"What is your current location?"
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye have a nice day
+  - text: Bye BYE
+  utter_greet:
+  - text: Hey! I am a weather bot How can i help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a bot, powered by janaeshwar.
+  - text: I am a weather bot, powered by janaeshwar.
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  location:
+    type: text
