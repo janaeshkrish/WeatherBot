@@ -88,3 +88,13 @@
 - Tell me the weather in [Vilnius](location)
 - The weather condition in [Italy](location)
 
+## intent:website
+- plant watering website
+- flask app link
+- link
+- show the link for the flask app
+- raspberry pi link
+- i want to water the plant
+- water
+- website
+
