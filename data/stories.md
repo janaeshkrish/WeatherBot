@@ -3,6 +3,8 @@
   - utter_greet
 * mood_great
   - utter_happy
+* website
+  - utter_web
 
 ## sad path 1
 * greet
@@ -57,6 +59,8 @@
 * inform{"location": "London"}
     - slot{"location": "London"}
     - action_weather
+* website
+    - utter_web
 * goodbye
     - utter_goodbye
     - export
@@ -68,6 +72,8 @@
 * inform{"location":"London"}
     - slot{"location": "London"}
     - action_weather
+* website
+    - utter_web
 * goodbye
     - utter_goodbye
     - export
@@ -91,6 +97,8 @@
 * inform{"location":"London"}
    - slot{"location": "London"}
    - action_weather
+* website
+    - utter_web
 * goodbye
    - utter_goodbye
 ## story_002
@@ -104,6 +112,8 @@
 ## story_003
 * greet
    - utter_greet
+* website
+    - utter_web
 * inform
    - utter_ask_location
 * inform{"location":"Vilnius"}
@@ -117,6 +127,8 @@
 * inform{"location":"Italy"}
    - slot{"location": "Italy"}
    - action_weather
+* website
+    - utter_web
 * goodbye
    - utter_goodbye 
 ## story_005
