@@ -22,5 +22,5 @@ Chatbot which helps the user to answer the weather status for any of the locatio
 > rasa train
 5) Talk to the chatbot once it's loaded after running open index.html file and start typing....
 
-"""see the output in output.mp4"""
+![rasa](/output.gif)
 
