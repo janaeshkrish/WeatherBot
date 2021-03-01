@@ -6,7 +6,7 @@ Chatbot which helps the user to answer the weather status for any of the locatio
 ![rasa](https://rasa.com/static/686aee8071dd209f198d500b1164e350/4828e/rasa.png)
 
 ## Dependencies
-- tensorflow
+- tensorflow 2.1
 - rasa >= 1.8
 - VScode(IDE)
 - weather API (https://openweathermap.org/)
