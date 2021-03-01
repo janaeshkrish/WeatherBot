@@ -7,7 +7,7 @@ Chatbot which helps the user to answer the weather status for any of the locatio
 
 ## Dependencies
 - tensorflow
-- rasa >= 2.0
+- rasa >= 1.8
 - VScode(IDE)
 - weather API (https://openweathermap.org/)
 
@@ -18,8 +18,8 @@ Chatbot which helps the user to answer the weather status for any of the locatio
 > rasa shell nlu
 3) Start the custom action server by running:
 > rasa run actions
-4) Open a new terminal and train the Rasa Core model by running:
-> rasa train
+4) Open a new terminal and start the app by running:
+> rasa run -m models --enable-api --cors "*" --debug
 5) Talk to the chatbot once it's loaded after running open index.html file and start typing....
 
 ![rasa](/output.gif)
